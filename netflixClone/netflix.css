@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+.container {
+  background-image: url(/Front-End/Project/netflixClone/Image/n1.jpg);
+  width: 100vw;
+  height: 100vh;
+  font-family:Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.box {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000bd;
+}
+.box1 {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aliceblue; */
+}
+.box2 {
+  width: 230px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.logo {
+  width: 9vw;
+  height: 30vh;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.fa-globe:before {
+  /* content: "\f0ac"; */
+  font-size: 25px;
+}
+.netflixSelect {
+  width: 100px;
+  height: 30px;
+  color: white;
+  padding-left: 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  background: #16130f45;
+}
+.netflixSelect:hover {
+  border: 2px solid #fff;
+}
+.option {
+  background-color: white;
+  color: #000;
+  border-radius: 5px;
+}
+
+.SignIn {
+  width: 75px;
+  height: 28px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: #e50914;
+  cursor: pointer;
+}
+.SignIn:hover{
+    background-color: #e50914bb;
+}
+
+.container1 {
+  width: 100%;
+  background-color: #000000bd;
+  color: #fff;
+  height: 661px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60%;
+  width: 80%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* background-color: #e50914; */
+}
+.content h1 {
+  font-size: 60px;
+}
+.content h4 {
+  font-size: 30px;
+}
+.content p {
+  font-size: 25px;
+}
+.boxemail {
+    width: 70%;
+    height: 85px;
+    display: flex;
+    border: 2px solid #555;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxemail .email {
+  width: 60%;
+  height: 60%;
+  border-radius: 5px;
+  font-size: 23px;
+  color: white;
+  background: #000000a6;
+  padding-left: 15px;
+  border: none;
+  border-radius:2px;
+}
+.boxemail .email:hover{
+    border: 2px solid white;
+}
+.boxemail .getStart{
+    width: 30%;
+    height: 50px;
+    border: none;
+    font-size: 30px;
+    border-radius:2px;
+    font-family: revert;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background-color: #e50914;
+}
+.boxemail .getStart:hover{
+    background-color: #e50914c2;
+}
+

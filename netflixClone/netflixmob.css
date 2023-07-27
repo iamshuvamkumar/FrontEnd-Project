@@ -1,0 +1,42 @@
+@media  (min-width: 700px) and (max-width: 992px){
+  .container {
+    height: 600px;
+  }
+  .box {
+    justify-content: space-between;
+  }
+  .logo {
+    width: 100px;
+    height: 30vh;
+  }
+  .container1 {
+    height: 500px;
+  }
+  .content {
+    height: 80%;
+    flex-direction: row;
+  }
+  .content h1 {
+    font-size: 30px;
+  }
+  .content h4 {
+    font-size: 28px;
+  }
+  .content p {
+    font-size: 19px;
+  }
+  .boxemail {
+    width: 100%;
+  }
+  .boxemail .email {
+    /* width: 60%; */
+    height: 50%;
+  }
+  .boxemail .getStart {
+    /* width: 30%; */
+    height: 40px;
+  }
+}
+@media (min-width:480 ) and(max-width:699){
+
+}
