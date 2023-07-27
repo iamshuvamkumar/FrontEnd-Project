@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+</head>
+<style>
+    body {
+        background: linear-gradient(45deg, #159720, #32abac);
+    }
+
+    .container {
+        margin-left: 38%;
+        margin-top: 10%;
+        background-color: gray;
+        height: 430px;
+        width: 300px;
+        box-shadow: 0px 0px 20px 7px #0b0b0b;
+        border-radius: 20px;
+    }
+
+    .container:hover {
+        box-shadow: 0px 0px 20px 7px #ffffff;
+    }
+
+    .container h1 {
+        margin-left: 73px;
+        color: white;
+    }
+
+    input {
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        margin-left: 10px;
+        font-size: 30px;
+        box-shadow: 2px 2px 5px 0px #ffffff;
+        background: linear-gradient(45deg, black, #ffffffb5);
+        border: none;
+        color: white;
+    }
+
+    .TextAreaStyle {
+        margin-left: 6px;
+        width: 94%;
+        height: 36px;
+        border-radius: 8px;
+        font-size: 20px;
+        background: #706351;
+        color: #00f500;
+    }
+
+    .TextAreaStyle:hover {
+        box-shadow: 2px 2px 5px 0px #ffffff;
+    }
+
+    input:nth-child(7) {
+        color: #00f500;
+        box-shadow: 2px 2px 5px 0px #e2cf04;
+    }
+
+    input:nth-child(13) {
+        color: #00f500;
+        box-shadow: 2px 2px 5px 0px #e2cf04;
+    }
+
+    input:nth-child(19) {
+        color: #00f500;
+        box-shadow: 2px 2px 5px 0px #e2cf04;
+    }
+
+    input:nth-child(22) {
+        color: #00f500;
+        box-shadow: 2px 2px 5px 0px #e2cf04;
+    }
+
+    input:nth-child(24) {
+        color: #00f500;
+        box-shadow: 2px 2px 5px 0px #e2cf04;
+    }
+
+    input:nth-child(25) {
+        color: #00f500;
+        box-shadow: 2px 2px 5px 0px #e2cf04;
+    }
+
+    input:nth-child(7):hover {
+        color: white;
+        box-shadow: 2px 2px 5px 0px #0422e2;
+    }
+
+    input:nth-child(13):hover {
+        color: white;
+        box-shadow:
+            2px 2px 5px 0px #0422e2;
+    }
+
+    input:nth-child(19):hover {
+        color: white;
+        box-shadow: 2px 2px 5px 0px #0422e2;
+    }
+
+    input:nth-child(22):hover {
+        color: white;
+        box-shadow: 2px 2px 5px 0px #0422e2;
+    }
+
+    input:nth-child(24):hover {
+        color: white;
+        box-shadow: 2px 2px 5px 0px #0422e2;
+    }
+
+    input:nth-child(25):hover {
+        color: white;
+        box-shadow: 2px 2px 5px 0px #0422e2;
+    }
+
+    input:hover {
+        box-shadow: 2px 2px 5px 3px #00ff21;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <h1>Calculator</h1>
+        <form>
+            <input type="text" name="ans" class="TextAreaStyle">
+            <br><br>
+            <input type="button" value="7" onclick="form.ans.value+='7'">
+            <input type="button" value="8" onclick="form.ans.value+='8'">
+            <input type="button" value="9" onclick="form.ans.value+='9'">
+            <input type="button" value="+" onclick="form.ans.value+='+'">
+            <br><br>
+            <input type="button" value="4" onclick="form.ans.value+='4'">
+            <input type="button" value="5" onclick="form.ans.value+='5'">
+            <input type="button" value="6" onclick="form.ans.value+='6'">
+            <input type="button" value="-" onclick="form.ans.value+='-'">
+            <br><br>
+            <input type="button" value="3" onclick="form.ans.value+='3'">
+            <input type="button" value="2" onclick="form.ans.value+='2'">
+            <input type="button" value="1" onclick="form.ans.value+='1'">
+            <input type="button" value="*" onclick="form.ans.value+='*'">
+            <br><br>
+            <input type="button" value="/" onclick="form.ans.value+='/'">
+            <input type="button" value="0" onclick="form.ans.value+='0'">
+            <input type="button" value="C" onclick="form.ans.value=' '">
+            <input type="button" value="=" onclick="form.ans.value = eval(form.ans.value)">
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
