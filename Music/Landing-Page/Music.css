@@ -1,0 +1,491 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+img {
+}
+/*    Header Start  ======== */
+.header-bar {
+  height: 90px;
+  background: linear-gradient(180deg, #1c1c1c, #1c1b1b 42.69%, #161616);
+}
+.header {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+.header-logo-row {
+  width: 50px;
+}
+.header-logo {
+  height: 100%;
+  /* background-color: black; */
+}
+.header-items {
+  height: 100%;
+  /* background-color: red; */
+}
+.logo-img {
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
+}
+.logo-img img {
+  width: 100%;
+  height: 100%;
+}
+.logo-name {
+  width: 100%;
+  position: relative;
+  top: -110px;
+  left: 80px;
+  /* border: 2px solid white; */
+  height: 60px;
+}
+.logo-name p {
+  color: white;
+  margin-top: 40px;
+  font-size: 30px;
+}
+.header-bar-items {
+  height: 100%;
+}
+.header-items-row {
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  height: 50px;
+  /* background:violet; */
+}
+/* Singer Dropdown Menu */
+.dropbtn {
+  background-color: #1c1b1b;
+  color: white;
+  width: 70%;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/* Singer Dropdown Menu */
+
+.search-box {
+  width: 100%;
+  height: 100%;
+}
+.search-box .fa-search {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  position: relative;
+  top: 15px;
+  left: 18px;
+  cursor: pointer;
+  color: #ffff;
+  z-index: 2;
+}
+
+.search-box #Search {
+  width: 100%;
+  height: 40px;
+  border-radius: 18px;
+  padding-left: 60px;
+  font-size: 18px;
+  position: relative;
+  top: -25px;
+  color: #ffff;
+  background: transparent;
+  border: none;
+  z-index: 1;
+}
+.search-box #Search:hover {
+  border: 1px solid white;
+  background-color: #3e8e41;
+  color: white;
+}
+.mid {
+  height: 50px;
+  /* background: aquamarine; */
+}
+.mid .dropdown {
+  /* background: black; */
+  width: 100%;
+  height: 100%;
+}
+.dropdown-list {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  top: 6px;
+}
+.dropdown-list #Singers {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  padding-left: 18px;
+  color: #bfbcbc67;
+  font-size: 18px;
+  background: transparent;
+  border: 2px solid #161616;
+}
+.right {
+  height: 50px;
+  /* background: gold; */
+}
+.login-button {
+  border: 2px solid;
+  height: 100%;
+  font-size: 20px;
+  padding-top: 6px;
+  width: 100px;
+  padding-left: 15px;
+}
+.login-button:hover {
+  border: 2px solid #ffff;
+  background-color: #3e8e41;
+  color: white;
+}
+.login-button .fa-user {
+  color: #efe7e7ab;
+}
+
+.tre-bar-menu {
+  display: none;
+  width: 50px;
+  height: 100%;
+  position: relative;
+  top: -50px;
+  padding-top: 6px;
+  left: 120px;
+  font-size: 23px;
+}
+.tre-bar-menu .fa-bars {
+  color: #ffffffab;
+}
+/*  ---------------  Header End  ======== */
+
+/* ---------------Menu bar -----------*/
+.nav {
+  background-color: rebeccapurple;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.navItemBox {
+  justify-content: space-between;
+}
+
+.navItem {
+  background: transparent;
+  height: 50px;
+}
+.navBox {
+  border-radius: 5px;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: brown;
+}
+.navItem p {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 10px;
+  text-align: center;
+}
+.navItem p a {
+  text-decoration: none;
+  color: white;
+}
+.nav {
+  background-color: #0c0f12;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.navItemBox {
+  justify-content: space-between;
+}
+.navItem {
+  background: transparent;
+  height: 50px;
+}
+.navBox {
+  border-radius: 5px;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: transparent;
+}
+.navBox:hover {
+  border: 1px solid white;
+  /* background: #1c1c1c8c; */
+  background-color: #3e8e41;
+  color: white;
+}
+.navItem p {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 10px;
+  text-align: center;
+}
+.navItem p a {
+  text-decoration: none;
+  color: white;
+}
+/*-------------------------- nav end------------------- */
+
+/* -----------------------slider start --------------------*/
+.color {
+  background-color: #0c0f12;
+}
+.slider-main-body {
+  background-color: transparent;
+}
+
+.slider-boby {
+  background-color: transparent;
+  height: 400px;
+}
+.slider-center {
+  width: 100%;
+  height: 100%;
+}
+.slider-center img {
+  width: 100%;
+  height: 100%;
+}
+/* ---------------------------slider end ----------------------------*/
+
+/* <!-- ---------Section 1 Play --> */
+/* --------------Singer-Section-Box ------ */
+.Singer-Section-Box {
+}
+.Singer-Section {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Singer-box {
+  display: flex;
+  margin: 10px;
+  margin-top: 20px;
+  width: 230px;
+  height: 330px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  box-shadow: 2px 2px 5px 1px #f6f6f6;
+  background: #0c0f12;
+}
+
+.box-img {
+  width: 96%;
+  height: 240px;
+  /* border: 2px solid firebrick; */
+}
+.box-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  border: 1px solid wheat;
+  transition: 0.5s;
+}
+.box-img img:hover {
+  margin-top: 25px;
+  margin-left: 10px;
+  scale: 120%;
+  width: 200px;
+  height: 280px;
+}
+
+.box-contant {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 96%;
+  height: 100px;
+  flex-direction: column;
+}
+.box-contant p {
+  color: white;
+  font-size: 18px;
+}
+.box-contant button {
+  outline: 3px solid #778da9;
+  outline-offset: -5px;
+  transition: 0.3s;
+}
+.box-contant button:hover {
+  outline-offset: 3px;
+}
+
+/* ====================circle====================  */
+
+.box-cirle-main a {
+  text-decoration: none;
+}
+.box-cirle-main {
+  overflow-y: hidden;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.box-cirle {
+  margin-left: 20px;
+  width: 200px;
+  height: 235px;
+}
+
+.box-cirle-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #04aa6d;
+  transition: 1s;
+}
+.box-cirle-img:hover {
+  scale: 90%;
+}
+
+.box-cirle-img img {
+  border-radius: 50%;
+  object-fit: unset;
+  width: 100%;
+  height: 100%;
+}
+.box-cirle p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 5px;
+  color: white;
+}
+
+/* ====================circle====================  */
+/* =--------------=-======--------Start---hover-Box--===---------------- */
+
+.hover-box {
+  overflow-y: hidden;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+.hover-box a {
+  text-decoration: none;
+  color: white;
+}
+.box-Hover {
+  width: 210px;
+  height: 210px;
+  margin-left: 40px;
+}
+.box-Hover-temp p{
+  margin-left: 17%;
+}
+.box-hover-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.box-hover-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.box-hover-contant {
+  position: relative;
+  bottom: 100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(10deg, black, transparent);
+  margin: auto;
+  /* border: 2px solid black; */
+  display: none;
+}
+.box-hover-img:hover + .box-hover-contant {
+  display: block;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.box-hover-contant button {
+  margin-left: 40%;
+  margin-top: 40%;
+  width: 21%;
+  height: 15%;
+}
+
+/* =--------------=-======--------End-----hover-Box--===---------------- */
+
+/* footer */
+footer{
+margin-top: 2px;
+}
+.footer h3{
+  text-align: center;
+  color: white;
+}
+.footer1{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+
+}
+.footer1 a{
+  text-decoration: none;
+  color: white;
+}
+.footer1,li{
+  text-decoration: none;
+  padding: 10px;
+  list-style :none ;
+  text-align: center;
+}

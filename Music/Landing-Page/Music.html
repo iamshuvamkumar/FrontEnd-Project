@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Music.css">
+    <link rel="stylesheet" href="/Front-End/Bootstrap/css/bootstrap.css">
+    <link rel="shortcut icon" href="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Icon/Music-Icon.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Music</title>
+</head>
+
+<body>
+    <!-- header Start ======--------------- -->
+    <div class="container-fluid  header-bar">
+        <div class="container-xl container-lg header-bar-items">
+            <div class="row header">
+
+                <!-- Header Logp Start -->
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-9 header-logo">
+                    <div class="logo-img">
+                        <a href="Music.html"><img
+                                src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Logo/logo.png"
+                                alt="Music-logo"></a>
+                    </div>
+                    <div class="logo-name">
+                        <p>Music.Red</p>
+                    </div>
+                </div>
+                <!-- Header Logp End -->
+
+
+                <!-- header Intems start  -->
+                <div class="col col-xl-7 col-lg-7 col-md-7 col-sm-3 header-items">
+                    <div class="row header-items-row">
+                        <!-- Search box -->
+                        <div class=" col-xl-5 col-lg-5 col-md-5 left">
+                            <div class="search-box">
+                                <label for="Search"> <i class="fa fa-search"></i></label>
+
+                                <input type="search" name="search" id="Search" placeholder="Search">
+                            </div>
+                        </div>
+                        <!-- Search End -->
+
+                        <!-- Singers    start -->
+                        <div class="col-xl-4 col-lg-4 col-md-4 mid ">
+                            <div class="dropdown">
+                                <button class="dropbtn">Singer</button>
+                                <div class="dropdown-content">
+                                    <a href="#">Sonu Nigam</a>
+                                    <a href="#">Arijit Singh</a>
+                                    <a href="#">Shreya Ghoshal</a>
+                                    <a href="#">Lata Mangeshkar</a>
+                                    <a href="#">Asha Bhosle</a>
+                                    <a href="#">Sunidhi Chauhan</a>
+                                    <a href="#">Udit Narayan</a>
+                                    <a href="#">Alka Yagnik</a>
+                                    <a href="#">KK</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Singers    start -->
+
+                        <!-- login start   -->
+                        <div class="col-xl-3 col-lg-3 col-md-3 right ">
+                            <div class="login-button">
+                                <i class="fa fa-user">&nbsp; Login</i>
+                            </div>
+                            <div class="tre-bar-menu">
+                                <i class="fa fa-bars"></i>
+                            </div>
+                        </div>
+                        <!-- login End   -->
+                    </div>
+                </div>
+                <!-- header Intems End  -->
+            </div>
+        </div>
+    </div>
+    <!--  Header End -------------------- -->
+
+    <!-- Navbar start   -->
+    <div class="container-fluid nav">
+        <div class="container container-md  container-sm">
+            <div class="row navItemBox">
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2  navItemBox1 navItem">
+                    <div class="navBox">
+                        <p><a href="#">ALL</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 navItemBox2 navItem">
+                    <div class="navBox">
+                        <p><a href="#"> Trending Now</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 navItemBox3 navItem">
+                    <div class="navBox">
+                        <p><a href="#"> Old Songs </a></p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 navItemBox4 navItem">
+                    <div class="navBox">
+                        <p><a href="#"> New Songs</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 navItemBox5 navItem">
+                    <div class="navBox">
+                        <p><a href="#"> Top Artists</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 navItemBox6 navItem">
+                    <div class="navBox">
+                        <p><a href="#"> Podcast</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- ================================Slider ==========------------------ -->
+
+    <div class="container-fluid color">
+        <div class="container slider-main-body">
+            <div class="row">
+                <div class="slider-boby">
+                    <div class="slider-center">
+                        <img id="slider-img"
+                            src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Thumb/slider/t.webp" alt=""
+                            onmouseover="playPause()" onmouseleave="playPause()">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=----------------------------- =Slider ==========------------------ -->
+
+    <!-- ---------Section 1 Play ----------->
+
+    <div class="container-fluid color">
+        <div class="container color">
+            <div class="Singer-Section-Box">
+                <div class="Singer-Section">
+                    <div class="Singer-box ">
+                        <div class="box-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/img/SonuNigam.jfif"
+                                alt="">
+                        </div>
+                        <div class="box-contant">
+                            <p>Singer : Sonu Nigam </p>
+                            <button class="btn btn-danger"><i class="fa fa-play-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="Singer-box ">
+                        <div class="box-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/img/ArijitSingh.webp"
+                                alt="">
+                        </div>
+                        <div class="box-contant">
+                            <p>Singer : Arijit Singh </p>
+                            <button class="btn btn-danger"><i class="fa fa-play-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="Singer-box ">
+                        <div class="box-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/img/ShreyaGhoshal.jfif"
+                                alt="">
+                        </div>
+                        <div class="box-contant">
+                            <p>Singer : Shreya Ghoshal </p>
+                            <button class="btn btn-danger"><i class="fa fa-play-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="Singer-box ">
+                        <div class="box-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/img/LataMangeshkar.jfif"
+                                alt="">
+                        </div>
+                        <div class="box-contant">
+                            <p>Singer : Lata Mangeshkar </p>
+                            <button class="btn btn-danger"><i class="fa fa-play-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="Singer-box ">
+                        <div class="box-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/img/AshaBhosle.jfif"
+                                alt="">
+                        </div>
+                        <div class="box-contant">
+                            <p>Singer : Asha Bhosle </p>
+                            <button class="btn btn-danger"><i class="fa fa-play-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="Singer-box ">
+                        <div class="box-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/img/SunidhiChauhan.jfif"
+                                alt="">
+                        </div>
+                        <div class="box-contant">
+                            <p>Singer : Sunidhi Chauhan </p>
+                            <button class="btn btn-danger"><i class="fa fa-play-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="Singer-box ">
+                        <div class="box-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/img/KumarSanu.jfif"
+                                width="100%" height="100%" alt="">
+                        </div>
+                        <div class="box-contant">
+                            <p>Singer : Kumar Sanu </p>
+                            <button class="btn btn-danger"><i class="fa fa-play-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="Singer-box ">
+                        <div class="box-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/img/UditNarayan.jfif"
+                                alt="">
+                        </div>
+                        <div class="box-contant">
+                            <p>Singer : Udit Narayan </p>
+                            <button class="btn btn-danger"><i class="fa fa-play-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="Singer-box ">
+                        <div class="box-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/img/AlkaYagnik.jfif"
+                                alt="">
+                        </div>
+                        <div class="box-contant">
+                            <p>Singer : Alka Yagnik </p>
+                            <button class="btn btn-danger"><i class="fa fa-play-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="Singer-box ">
+                        <div class="box-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/img/kk.jpg" alt="">
+                        </div>
+                        <div class="box-contant">
+                            <p class="">Singer : KK </p>
+                            <button class="btn btn-danger"><i class="fa fa-play-circle"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------Section end 1 Play ----------->
+
+    <!-- ---------------------Cricle start img ----------------------->
+    <div class="container-fluid color">
+        <div class="container pt-5">
+            <h1 style="color: white;">Top Indie Artists</h1>
+            <div class="box-cirle-main pt-3">
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/A.R.Rahman.jpg"
+                                alt="">
+                        </div>
+                        <p>A.R.Rahman</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/AdnanSami.jpg"
+                                alt="">
+                        </div>
+                        <p>Adnan Sami</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/AjoyChakrabarty.jpg"
+                                alt="">
+                        </div>
+                        <p>Ajoy Chakrabarty</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/AliAkbarKhan.jpg"
+                                alt="">
+                        </div>
+                        <p>Ali AkbarKhan</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/AllaRakha.jpg"
+                                alt="">
+                        </div>
+                        <p>Alla Rakha</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/AmirKhan.jpg"
+                                alt="">
+                        </div>
+                        <p>Amir Khan</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/AnkitTiwari.jpg"
+                                alt="">
+                        </div>
+                        <p>Ankit Tiwari</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/ArmaanMalik.jpg"
+                                alt="">
+                        </div>
+                        <p> Armaan Malik</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/AyushmannKhurrana.jpg"
+                                alt="">
+                        </div>
+                        <p> Ayushmann </p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/Badshah.jpg"
+                                alt="">
+                        </div>
+                        <p> Badshah </p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/JagjitSingh.jpg"
+                                alt="">
+                        </div>
+                        <p> Jagjit Singh </p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/JubinNautiyal.jpg"
+                                alt="">
+                        </div>
+                        <p> Jubin Nautiyal </p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/KishoreKumar.jpg"
+                                alt="">
+                        </div>
+                        <p>Kishore Kumar </p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/MohammedRafi.jpg"
+                                alt="">
+                        </div>
+                        <p> Mohammed Rafi </p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/MohitChauhan.jpg"
+                                alt="">
+                        </div>
+                        <p> Mohit Chauhan</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/Mukesh.jpg"
+                                alt="">
+                        </div>
+                        <p> Mukesh</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/Shaan.jpg"
+                                alt="">
+                        </div>
+                        <p> Shaan</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="box-cirle">
+                        <div class="box-cirle-img">
+                            <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/Circel-img/SukhwinderSingh.jpg"
+                                alt="">
+                        </div>
+                        <p> Sukhwinder Singh</p>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+    <!-------------------------- Cricle end img--------------------------- -->
+
+    <!-- -----------New Releases Start ---------------- -->
+    <div class="container-fluid color">
+        <div class="container pt-5">
+            <h1 style="color: white;">New Releases</h1>
+            <div class="row box-Hover-temp">
+                <div class="hover-box">
+                    <a href="#" class="ml-5">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/New-Rel-hindi-song/thumb/new-rel-hindi-song.webp"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p>New Hindi Song</p>
+                    </a>
+
+                    <a href="#">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/Old-Is-Gold/thumb/Old-is-gold.jpg"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p>Old Is Gold</p>
+                    </a>
+
+                    <a href="#">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/Hip-Hop/thumb/hip-hop.jpg"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p>Hip Hop</p>
+                    </a>
+
+                    <a href="#">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/Pop-Music/Thumb/pop.jfif"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p>PoP Music</p>
+                    </a>
+
+                    <a href="#">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/New-Eng-Song/thumb/thumb.webp"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p>PoP Music</p>
+                    </a>
+
+                    <a href="#">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/randowm-songs/club-dj-party.avif"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p>club-dj-party</p>
+                    </a>
+
+                    <a href="#">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/randowm-songs/jazz.avif"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p>Jazz</p>
+                    </a>
+
+                    <a href="#">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/randowm-songs/Machayenge.webp"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p> Machayenge </p>
+                    </a>
+
+                    <a href="#">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/randowm-songs/Make-It-Real.avif"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p> Make-It-Real </p>
+                    </a>
+
+                    <a href="#">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/randowm-songs/Mile Ho Tum.webp"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p> Mile Ho Tum</p>
+                    </a>
+
+                    <a href="#">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/randowm-songs/Muqabla.webp"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p> Muqabla</p>
+                    </a>
+
+                    <a href="#">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/randowm-songs/pachtayoge.webp"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p> Pachtayoge </p>
+                    </a>
+
+                    <a href="#">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/randowm-songs/saturday-party.avif"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p> Saturday-party </p>
+                    </a>
+
+                    <a href="#">
+                        <div class="box-Hover">
+                            <div class="box-hover-img">
+                                <img src="/Front-End/Project/Music/Landing-Page/Langing-Page-Image/New-Releases/randowm-songs/saturday.avif"
+                                    alt="">
+                            </div>
+                            <div class="box-hover-contant">
+                                <button class="btn btn-outline-danger fa fa-play "></button>
+                            </div>
+                        </div>
+                        <p> Saturday </p>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------New Releases End---------------- -->
+    <!--------------- footer-------- -->
+    <div class="container-fluid pt-5 color ">
+        <div class="container footer  ">
+            <div class="row ">
+                <div class="col-3 footer1">
+                    <ul>
+                        <li><a href="#">New Singer</a></li>
+                        <li><a href="#">New Songs</a></li>
+                        <li><a href="#">New Album</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 footer1">
+                    <ul>
+                        <li><a href="#">New Hindi Songs</a></li>
+                        <li><a href="#">New English Songs</a></li>
+                        <li><a href="#">New Hip-Hop Songs</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 footer1">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Concact</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 footer1">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> facebook</a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+                    </ul>
+                </div>
+                <h3>&copy;GODOFCLOWN</h3>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="music.js"></script>
+</body>
+
+</html>
