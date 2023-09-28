@@ -1,0 +1,209 @@
+[
+  {
+    "delhi": {
+      "city": "Delhi",
+      "VisitingPlace": [
+        "Red Fort",
+        "India Gate",
+        "Qutub Minar",
+        "Humayun’s Tomb",
+        "Jama Masjid",
+        "Jama Masjid",
+        "Lotus Temple",
+        "Akshardham Temple",
+        "Chandni Chowk",
+        "National Museum",
+        "National Zoological Park"
+      ],
+      "park": [
+        "Lodhi Gardens",
+        "Central Park Rajiv Chowk",
+        "Garden of Five Senses",
+        "Deer Park",
+        " Jahanpanah City Forest",
+        "India Gate Lawns",
+        "Buddha Jayanti Park",
+        "Indraprastha Park",
+        "Talkatora Gardens",
+        "Swarn Jayanti Park",
+        "Mughal Garden",
+        "Nehru Park"
+      ],
+      "image": [
+        "/Landing-Page/img/VisitingPlace/Delhi/AkshardhamTemple.jpg",
+        "/Landing-Page/img/VisitingPlace/Delhi/ChandniChowk.jpg",
+        "/Landing-Page/img/VisitingPlace/Delhi/HumayunTomb.jpg",
+        "/Landing-Page/img/VisitingPlace/Delhi/IndiaGate.jpg",
+        "/Landing-Page/img/VisitingPlace/Delhi/JamaMasjid.jpg",
+        "/Landing-Page/img/VisitingPlace/Delhi/LotusTemple.jpg",
+        "/Landing-Page/img/VisitingPlace/Delhi/NationalMuseum.jpg",
+        "/Landing-Page/img/VisitingPlace/Delhi/NationalZoologicalPark.jpg",
+        "/Landing-Page/img/VisitingPlace/Delhi/QutubMinar.jpg",
+        "/Landing-Page/img/VisitingPlace/Delhi/RedFort.jpg"
+      ]
+    },
+    "andhrapradesh": {
+      "city": "Andhra Pradesh",
+      "VisitingPlace": [
+        "Visakhapatnam",
+        "Gandikota",
+        "Tirupati",
+        "Ahobilam",
+        "Rajahmundry",
+        "Amaravati",
+        "Lepakshi",
+        "ArakuValley",
+        "Kurnool",
+        "Vijayawada"
+      ],
+      "park": ["Gandikota", "Tirupati", "ArakuValley", "Kurnool", "Vijayawada"],
+      "image": [
+        "/Landing-Page/img/VisitingPlace/AndhraPradesh/Ahobilam.webp",
+        "/Landing-Page/img/VisitingPlace/AndhraPradesh/Amaravati.webp",
+        "/Landing-Page/img/VisitingPlace/AndhraPradesh/ArakuValley.webp",
+        "/Landing-Page/img/VisitingPlace/AndhraPradesh/Gandikota.webp",
+        "/Landing-Page/img/VisitingPlace/AndhraPradesh/Kurnool.webp",
+        "/Landing-Page/img/VisitingPlace/AndhraPradesh/Lepakshi.webp",
+        "/Landing-Page/img/VisitingPlace/AndhraPradesh/Rajahmundry.webp",
+        "/Landing-Page/img/VisitingPlace/AndhraPradesh/Tirupati.webp",
+        "/Landing-Page/img/VisitingPlace/AndhraPradesh/Vijayawada.webp",
+        "/Landing-Page/img/VisitingPlace/AndhraPradesh/Visakhapatnam.webp"
+      ]
+    },
+    "arunachalpradesh": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "assam": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "bihar": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "goa": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "haryana": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "himachal-pradesh": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "jammukashmir": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "karnataka": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "kerala": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "madhyapradesh": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "maharashtra": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "manipur": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "meghalaya": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "mizoram": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "nagaland": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "orissa": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "punjab": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "rajasthan": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "sikkim": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "tamilnadu": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "tripura": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "sikuttarakhandkim": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "uttarpradesh": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "westbengal": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "chandigarh": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "lakshadweep": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    },
+    "pondicherry": {
+      "city": "tham",
+      "VisitingPlace": [" Fort", " Gate"],
+      "image": "https://img.freepik.com/premium-vector/young-girl-anime-style-character-vector-illustration-design-manga-anime-girl_147933-100.jpg?w=2000"
+    }
+  }
+]

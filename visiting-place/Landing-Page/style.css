@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Baloo+Thambi+2&family=Noto+Serif&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header-Section {
+  height: 98px;
+  width: 100%;
+  /* background: tomato; */
+}
+.header {
+  height: 100%;
+  /* background: tan; */
+}
+.nav {
+  background: teal;
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav .left {
+  width: 260px;
+  height: 55px;
+  /* padding-left: 30px; */
+  /* background: saddlebrown; */
+}
+.nav .left .logo {
+  /* width: 84%;
+  height: 60px; */
+  padding-top: 2px;
+  /* background: rgb(9, 12, 12); */
+}
+.nav .left a {
+  color: white;
+  text-decoration: none;
+  font-family: "Noto Serif", serif;
+  
+}
+.nav .left #travling {
+  font-size: 30px;
+  text-align: center;
+}
+.nav .left .logo img {
+  width: 100%;
+  height: 100%;
+}
+.nav .mid {
+  width: 50%;
+  height: 55px;
+  /* background: rgb(78, 77, 76); */
+}
+.hide {
+  display: none;
+}
+.nav .mid .menu {
+  display: flex;
+  width: 100%;
+  /* margin-top: 36px; */
+  /* margin-left: 20px; */
+  height: 100%;
+  /* background: rgb(179 104 29); */
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav .mid ul {
+  display: flex;
+  /* background: slateblue; */
+  width: 95%;
+  height: 44px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 16px;
+}
+.nav .mid ul li {
+  list-style-type: none;
+}
+.nav .mid ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: "Baloo Da 2", cursive;
+}
+.menu .hide {
+  display: none;
+}
+
+.nav .right {
+  width: 55px;
+  height: 55px;
+  /* display: none; */
+  background: rgb(139, 19, 45);
+}
+
+.nav .right .menuBar {
+  width: 50px;
+  height: 50px;
+  padding-bottom: 0px;
+  display: flex;
+  background: #afafaf;
+  align-items: center;
+  justify-content: center;
+}
+.nav .right .material-symbols-outlined {
+  color: white;
+  font-size: 35px;
+}
+
+/* searchBar */
+.searchAreaBox {
+  height: 500px;
+  /* border: 2px solid; */
+  /* background: red; */
+}
+.searchBox {
+  margin-top: 10px;
+  height: 95%;
+  border-radius: 10px;
+  background: teal;
+}
+.searchinputbox {
+  display: flex;
+  height: 100%;
+  /* background: aquamarine; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.searchAreaBox h2 {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 73%;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+}
+.form {
+  width: 80%;
+  height: 70px;
+}
+#search {
+  padding-left: 30px;
+  width: 99%;
+  font-size: 30px;
+  height: 70px;
+  border: none;
+  border-radius: 14px;
+  color: black;
+}
+.searchbtn {
+  position: relative;
+  left: 90%;
+  font-size: 33px;
+  bottom: 94%;
+}
+/* Data-section */
+.Data-section {
+  height: 500px;
+  background-color: teal;
+}
+.areaInfo {
+  display: flex;
+  height: 100%;
+  /* background-color: thistle; */
+  flex-direction: column;
+  justify-content: center;
+}
+.cityinfo {
+  text-align: center;
+  height: 96%;
+  /* background-color: tomato; */
+}
+.cityinfo h2 {
+  font-family: "Baloo Thambi 2", cursive;
+  color: white;
+}
+.cityinfbox {
+  display: flex;
+  height: 88%;
+  /* background-color: rgb(139, 19, 45); */
+  justify-content: space-evenly;
+  align-items: center;
+}
+.infoBox1 {
+  height: 100%;
+  width: 45%;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.infoB {
+     /* background-color: aqua; */
+     width: 100%;
+     border: 2px solid black;
+     border-radius: 15px;
+     height: 135px;
+}
+.infoB p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+  width: 100%;
+  font-size: 15px;
+  overflow-wrap: anywhere;
+  height: 100%;
+}
+.infoB p::-webkit-scrollbar {
+  display: none;
+}
+.infoBox2 {
+  height: 100%;
+  width: 45%;
+  border-radius: 10px;
+  /* background-color: magenta; */
+}
+.infoBox2 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  scale: 0.9;
+}
+.infoBox2 img:hover {
+  scale: 100%;
+}
+.sectiion-image {
+  height: auto;
+  margin-bottom: 10px;
+  background-color: cadetblue;
+}
+.image-box {
+  margin-top: 10px;
+  height: 100%;
+}
+.images-con{
+  height: 100%;
+  background-color: teal;
+}
+.main-image-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+}
+.images-box {
+  margin-top: 10px;
+  width: 300px;
+  height: auto;
+  /* border: 2px solid rgb(0, 0, 0); */
+}
+.images-box img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  scale: 0.9;
+}
+.images-box img:hover {
+  scale: 100%;
+}
+
+/* footer */
+
+.footer{
+  background-color: #008080;
+  height: 420px;
+}
+.footer a{
+  text-decoration: none;
+  color: #000000;
+}
+.footer1{
+  justify-content: space-between;
+}
+.footer-col-box{
+  background-color: #fefefe;
+}
+.footer-icon-box{
+  display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.footer-icon-box .fa-facebook{
+  width: 35px;
+  background: linear-gradient(blue,#0a29ba);
+  height: 35px;
+  padding-top: 10px;
+  color: white;
+  padding-left: 12px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 4px;
+}
+.footer-icon-box .fa-google{
+  width: 35px;
+  background: linear-gradient(241deg,#ff0606,#0080004d);
+  height: 35px;
+  padding-top: 10px;
+  color: white;
+  padding-left: 12px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 4px;
+}
+.footer-icon-box .fa-instagram{
+  width: 35px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  height: 35px;
+  padding-top: 10px;
+  color: white;
+  padding-left: 12px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 4px;
+}
+.footer-icon-box .fa-linkedin{
+  width: 35px;
+  background-color:  rgb(10, 102, 194);
+  height: 35px;
+  padding-top: 10px;
+  color: white;
+  padding-left: 12px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-icon-box .fa-twitter{
+  width: 35px;
+  background-color:  rgb(115, 174, 234);
+  height: 35px;
+  padding-top: 10px;
+  color: white;
+  padding-left: 12px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 4px;
+}

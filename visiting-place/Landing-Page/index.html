@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Mstyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:wght@300;400&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="shortcut icon" href="./img/logo/FavIcon.png"type="image/x-icon"/>
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <title>Travling</title>
+  </head>
+
+  <body>
+    <section class="Header-Section">
+      <div class="header">
+        <!-- navBar -->
+        <div class="nav">
+          <div class="left">
+            <div class="logo">
+              <!-- <img src="./img/logo/Travelinggif.gif" alt=""> -->
+              <a href="#">
+                <p id="travling"></p>
+              </a>
+            </div>
+          </div>
+          <!-- [----------------] -->
+          <div class="mid hide">
+            <!-- Ul section -->
+            <div class="menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Place</a></li>
+                <li><a href="#">City</a></li>
+                <li><a href="#">About</a></li>
+              </ul>
+            </div>
+            <!-- Ul section -->
+          </div>
+          <!-- ----------------------- -->
+          <div class="right">
+            <div class="menuBar" onclick="fun()">
+              <span
+                class="material-symbols-outlined"
+                onclick="closed()"
+                id="closed"
+              >
+                menu
+              </span>
+            </div>
+          </div>
+          <!-- ---------------- -->
+        </div>
+        <!-- navBar -->
+      </div>
+    </section>
+
+    <!--Search area   -->
+
+    <section class="container-fluid searchAreaBox">
+      <div class="container searchBox">
+        <div class="searchinputbox">
+          <h2>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+            esse optio, incidunt, cupiditate 
+          </h2>
+          <form onsubmit="getAPIData();return false" class="form">
+            <input type="search" placeholder="Enter City..." id="search" />
+            <button type="submit" class="btn searchbtn">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+<!-- data-section -->
+    <section class="container-fluid Data-section">
+      <div class=" areaInfo">
+        <div class="cityinfo">
+          <h2>City Info.....</h2>
+          <div class="cityinfbox">
+            <div class="infoBox1">
+              <div class="infoB">
+              <h3>City</h3>
+                <p id="city"></p>
+              </div>
+              <div class="infoB">
+                <h3>Visiting-Place</h3>
+                <p id="VisitingPlace"></p>
+              </div>
+              <div class="infoB">
+              <h3>park</h3>
+                <p id="park"></p>
+              </div>
+            </div>
+            <div class="infoBox2">
+              <img  id="image" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- images sections -->
+    <section class="sectiion-image">
+      <div class="container-fluid image-box ">
+        <div class="container images-con">
+        <div class="main-image-box">
+           <div class="images-box"><img src="img/LandingPage/t1.jpg"></div>
+           <div class="images-box"><img src="img/LandingPage/t2.jpg"></div>
+           <div class="images-box"><img src="img/LandingPage/t3.jpg"></div>
+           <div class="images-box"><img src="img/LandingPage/t4.jpg"></div>
+           <div class="images-box"><img src="img/LandingPage/t5.jpg"></div>
+           <div class="images-box"><img src="img/LandingPage/t6.jpg"></div>
+           <div class="images-box"><img src="img/LandingPage/t7.jpg"></div>
+           <div class="images-box"><img src="img/LandingPage/t8.jpg"></div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- footer section-->
+    <div class="container-fluid footer-section">
+      <div class="container footer">
+        <div class="row footer1">
+          <div class="col-4 footer-col-box">
+            <div class="col-12 text-center Landing-Page-Img-box-con">
+              <h2>Welcome to Traveling Places<h2>
+            </div>
+          </div>
+          <div class="col-4 footer-col-box">
+            <div class="footer-icon-box">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-google"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+  
+            <div class="row mt-3">
+  
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3 text-secondary"></i>Visiting-Places
+                </h6>
+                <p class="text-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, deserunt.
+                </p>
+              </div>
+  
+              <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+  
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Books
+                </h6>
+                <p>
+                  <a href="#" class="text-light History">Historical Place</a>
+                </p>
+                <p>
+                  <a href="#" class="text-light Historical-Fiction">Natural Areas</a>
+                </p>
+                <p>
+                  <a href="#" class="text-light  Mystery">Mountain Areas</a>
+                </p>
+                <p>
+                  <a href="#" class=" text-light Poetry">Towns & Cities</a>
+                </p>
+              </div>
+  
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+  
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Useful links
+                </h6>
+                <p>
+                  <a href="#!" class="text-light ">More</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-light ">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-light ">Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-light ">Help</a>
+                </p>
+              </div>
+  
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p class="text-light"><i class="fas fa-home me-3  text-secondary"></i> Lorem ipsum dolor sit amet.</p>
+                <p>
+                  <i class="fas fa-envelope me-3 text-secondary"></i>
+                  <a class="text-light" href="mailto:Shuvam.k9211@gmail.com">Shuvam.k9211@gmail.com</a>
+                </p>
+                <p class="text-light"><i class="fas fa-phone me-3 text-secondary"></i> <a href="tel:+123456789123"></a>+ 123 456 789 123</p>
+                <!-- <p><i class="fas fa-print me-3 text-secondary"></i> <a href="tel:+123456789123"></a>+ 123 456 789 123</p> -->
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="#">GODOFCLOWN</a>
+    </div>
+  
+
+    <script src="script.js"></script>
+  </body>
+</html>
