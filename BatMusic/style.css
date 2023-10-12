@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+/* header */
+.container-fluid {
+  /* background-color: blueviolet; */
+}
+.nav {
+  height: 80px;
+  justify-content: center;
+  background-color: black;
+}
+.navBody {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+/* left */
+.letf {
+  height: 60px;
+}
+.logo {
+  margin-top: 5px;
+  width: 220px;
+  margin-left: 2px;
+  height: 50px;
+  background-color: tan;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+/* left */
+/* mid */
+.mid {
+  width: 55%;
+  height: 60px;
+}
+.menu {
+  margin-top: 0px;
+  height: 100%;
+  /* background-color: teal; */
+}
+.mid .menu ul {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mid .menu ul li {
+  list-style: none;
+}
+.mid .menu ul li a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Baloo 2", cursive;
+}
+.mid .menu ul li a:hover {
+  text-decoration: underline;
+  color: rgb(241, 135, 15);
+}
+/* mid */
+/* right */
+.right {
+  height: 60px;
+}
+.right .search {
+  margin-top: 5px;
+  width: 300px;
+  margin-left: 2px;
+  height: 50px;
+  /* background-color: tan; */
+  font-size: 26px;
+}
+/* right */
+[type="search"] {
+  width: 290px;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 4px;
+  padding-left: 20px;
+  color: #ff680d;
+  background-color: #57575780;
+  margin-left: 5px;
+}
+.fa,
+.fa-search {
+  position: relative;
+  left: 80%;
+  bottom: 83%;
+  color: white;
+}
+.menubar {
+  position: relative;
+  width: 50px;
+  right: 5px;
+  background: black;
+  padding-left: 3px;
+  height: 46px;
+  color: white;
+  display: none;
+}
+.menubar .material-symbols-outlined {
+  font-size: 45px;
+}
+.searchInMenuenu {
+  display: none;
+}
+
+/* Section  */
+.section {
+  height: 600px;
+  /* background-color: #ff680d; */
+}
+.section .section-main {
+  height: 98%;
+  /* background-color: #beb7a4; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section .section-main .box1 {
+  height: 530px;
+  display: flex;
+  width: 45%;
+  /* background-color: teal; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section .section-main .box1 .images{
+  width: 96%;
+  height: 65%;
+}
+.section .section-main .box1 img{
+  width: 560px;
+  height: 337px;
+}
+
+.musicRange{
+  height: 90px;
+  /* background: blueviolet; */
+}
+
+#range{
+  margin-top: 8px;
+  width: 100%;
+}
+#TimeNameBox{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#timer{
+  height: 50px;
+  width: 60px;
+  font-size:30px;
+  text-align: center;
+ border: 2px solid black ;
+}
+#SongName{
+  border: rgb(152, 138, 138) 2px solid;
+  height: 50px;
+  width: 70%;
+  font-size: 30px;
+  color: #ff680d;
+  text-align: center;
+}
+.control{
+  /* background-color: #ff680d; */
+  border: 2px solid #ff680d;
+  margin-top: 2px;
+  width: 100%;
+  height: 100%;
+}
+.controlBox{
+  display: flex;
+  height: 70px;
+  /* background-color: aqua; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+.control .controlBox .material-symbols-outlined{
+  color: black;
+  font-size: 45px;
+}
+.section .section-main .box2 {
+  height: 470px;
+  display: flex;
+  width: 45%;
+  justify-content: flex-start;
+  /* background-color: tomato; */
+  align-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+.SongItem{
+  width: 78%;
+  display: flex;
+  height: 50px;
+  background: antiquewhite;
+  margin-top: 9px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 26px;
+  font-size: 18px;
+}
+.SongItem img{
+width: 50px;
+height: 50px;
+}
+::-webkit-scrollbar{
+    display: none ;
+}
+

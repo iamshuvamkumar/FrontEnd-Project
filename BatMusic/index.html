@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="StyleM.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>BatMusic</title>
+  </head>
+  <body>
+    <!-- hader -->
+    <div class="container-fluid">
+      <!-- navbar -->
+      <div class="row nav">
+        <div class="navBody">
+          <div class="letf">
+            <div class="logo">
+              <img src="logo/BatMusic.png" alt="" />
+            </div>
+          </div>
+          <div class="mid hide">
+            <div class="menu">
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">HOME</a></li>
+                <div class="searchInMenuenu">
+                  <input
+                    type="search"
+                    name="search"
+                    id="search"
+                    placeholder="Search.."
+                  />
+                  <span class="fa fa-search"></span>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div class="right">
+            <div class="search">
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search.."
+              />
+              <span class="fa fa-search"></span>
+            </div>
+          </div>
+          <div class="menubar" onclick="fun()">
+            <span
+              onclick="closed()"
+              id="closed"
+              class="material-symbols-outlined"
+            >
+              menu
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- nav bar -->
+    </div>
+    <!-- header-closed -->
+
+    <!-- Section Start  -->
+    <section class="container-fluid section">
+      <div class="container section-main">
+        <div class="box1">
+          <div class="images">
+            <img id="image" src="img/gif.gif" alt="" />
+          </div>
+          <div class="control">
+            <div class="musicRange">
+              <input type="range" name="range" id="range" value="0" min="0" max="100" />
+              <div id="TimeNameBox">
+                <P id="timer">0</P>
+                <p id="SongName">SaongNae</p>
+              </div>
+            </div>
+            <div class="controlBox">
+              <span class="material-symbols-outlined"  id="left"> arrow_circle_left </span>
+              <span class="material-symbols-outlined" id="masterplay"> play_circle </span>
+              <span class="material-symbols-outlined" id="right"> arrow_circle_right </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box2">
+          <div class="SongItem">
+            <img alt="1" />
+            <span class="songname">Song Name</span>
+            <span class="material-symbols-outlined p" id="p1"> play_circle </span>
+          </div>
+          <div class="SongItem">
+            <img alt="2" />
+            <span class="songname">Song Name</span>
+            <span class="material-symbols-outlined" id="p2"> play_circle </span>
+          </div>
+          <div class="SongItem">
+            <img alt="3" />
+            <span class="songname">Song Name</span>
+            <span class="material-symbols-outlined" id="p3"> play_circle </span>
+          </div>
+          <div class="SongItem">
+            <img alt="4" />
+            <span class="songname">Song Name</span>
+            <span class="material-symbols-outlined" id="p4"> play_circle </span>
+          </div>
+          <div class="SongItem">
+            <img alt="5" />
+            <span class="songname">Song Name</span>
+            <span class="material-symbols-outlined" id="p1"> play_circle </span>
+          </div>
+          <div class="SongItem">
+            <img alt="6" />
+            <span class="songname">Song Name</span>
+            <span class="material-symbols-outlined" id="p1"> play_circle </span>
+          </div>
+          <div class="SongItem">
+            <img alt="7" />
+            <span class="songname">Song Name</span>
+            <span class="material-symbols-outlined" id="p1"> play_circle </span>
+          </div>
+          <div class="SongItem">
+            <img alt="8" />
+            <span class="songname">Song Name</span>
+            <span class="material-symbols-outlined" id="p"> play_circle </span>
+          </div>
+          <div class="SongItem">
+            <img alt="9" />
+            <span class="songname">Song Name</span>
+            <span class="material-symbols-outlined" id="p"> play_circle </span>
+          </div>
+          <div class="SongItem">
+            <img alt="10" />
+            <span class="songname">Song Name</span>
+            <span class="material-symbols-outlined" id="p"> play_circle </span>
+          </div>
+          <div class="SongItem">
+            <img alt="11" />
+            <span class="songname">Song Name</span>
+            <span class="material-symbols-outlined" id="p"> play_circle </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
